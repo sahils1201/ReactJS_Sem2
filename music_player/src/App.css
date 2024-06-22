@@ -1,0 +1,47 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #0055ff;
+  padding: 20px;
+  color: white;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0055ff;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #002c84;
+  scale: 1.2;
+  transition: 0.3s;
+}
+
+.track-list {
+  margin: 20px 0;
+}
+
+.track {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.track:hover {
+  background-color: #f0f0f0;
+}
